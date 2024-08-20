@@ -1,0 +1,250 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0 ;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: block;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.links>a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  padding: 12px 0;
+  color: #5e2195;
+}
+
+.wrapper {
+  max-width: 1140px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* create pizza form */
+
+.create-pizza {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.create-pizza label,
+.create-pizza select {
+  display: block;
+}
+
+.create-pizza label {
+  margin-top: 30px;
+}
+
+.create-pizza select {
+  padding: 8px;
+  width: 200px;
+}
+
+.create-pizza input[type=checkbox] {
+  margin: 10px;
+}
+
+.create-pizza input[type=submit] {
+  background: #5e2195;
+  padding: 8px 20px;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+
+/* pizza details page */
+
+.pizza-details {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.pizza-details p {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.pizza-details button {
+  background: #5e2195;
+  padding: 8px 20px;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+
+a.back {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  color: #5e2195;
+  margin-bottom: 20px;
+}
+
+/* pizza index page */
+
+.pizza-index h1 {
+  margin-bottom: 40px;
+}
+
+.pizza-index .pizza-item {
+  margin: 10px 0;
+  padding: 12px;
+  background: #f4f4f4;
+}
+
+.pizza-index .pizza-item img {
+  width: 60px;
+  display: inline-block;
+}
+
+.pizza-index .pizza-item h4 {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.pizza-index .pizza-item h4 a {
+  color: #777;
+  text-decoration: none !important;
+}
+
+
+
+/* Main container styling */
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input and select styling */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+/* Checkbox styling */
+.form-check {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button styling */
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5cb85c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Success message styling */
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
